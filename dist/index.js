@@ -13451,7 +13451,7 @@ var CurrencyTextField = function (_React$Component) {
           others = objectWithoutProperties(_props2, ["classes", "currencySymbol", "inputProps", "InputProps"]);
 
 
-      var otherProps = {};["id", "label", "className", "autoFocus", "variant", "style", "error", "disabled", "type", "name", "defaultValue", "tabIndex", "fullWidth", "rows", "rowsMax", "select", "required", "helperText", "unselectable", "margin", "SelectProps", "multiline", "size", "FormHelperTextProps", "placeholder"].forEach(function (prop) {
+      var otherProps = {};["id", "label", "className", "autoFocus", "variant", "style", "error", "disabled", "type", "name", "defaultValue", "tabIndex", "fullWidth", "rows", "select", "required", "helperText", "unselectable", "margin", "SelectProps", "multiline", "size", "FormHelperTextProps", "placeholder"].forEach(function (prop) {
         return otherProps[prop] = _this2.props[prop];
       });
 
