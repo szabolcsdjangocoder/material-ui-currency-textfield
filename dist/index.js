@@ -13410,8 +13410,8 @@ var CurrencyTextField = function (_React$Component) {
       this.autonumeric.remove();
     }
   }, {
-    key: "componentWillReceiveProps",
-    value: function componentWillReceiveProps(newProps) {
+    key: "UNSAFE_componentWillReceiveProps",
+    value: function UNSAFE_componentWillReceiveProps(newProps) {
       var isValueChanged = this.props.value !== newProps.value && this.getValue() !== newProps.value;
 
       if (isValueChanged) {
